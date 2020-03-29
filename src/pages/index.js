@@ -1,4 +1,4 @@
 import React from "react";
-import test from "./test";
+import { InlineWidget } from "react-calendly";
 
-export default () => null;
+export default () => <InlineWidget url={"https://calendly.com/acmesales"} />;
